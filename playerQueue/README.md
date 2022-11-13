@@ -1,0 +1,27 @@
+# playing with Viewers Queue System  Version 0.2
+
+Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
+
+Suggested use for only you and your mods to be able to use !addplayer, but if you want anyone to be able to add themselves, you can enable the !addme command as well and set permissions accordingly.
+
+Video forthcoming eventually, but for now, have a beta release and please help me test this
+
+## Instructions:
+1)  Import code.txt into Streamer.bot
+2) Enable the 6 commands as needed and set permissions as desired (recommend mod only except for !addme)
+3) Enjoy
+ 
+## Command descriptions:
+**!addme** (optional)  set to to allow anyone to add themselves to the queue, or lock command down to vip/mods only.
+**!addplayer**  allow mods to add others to the queue (set permissions accordingly)  use like !addplayer @buttsbot  (works with or without the @)
+**!clearplayers**  clear the whole queue
+**!nextplayer**  announce the next player when it's time to pull one from the queue (this also removes that player from queue)
+**!removeplayer**  allows mods to remove someone from the queue (set permissions accordingly)
+**!showplayers**  display the entire queue in chat.
+
+Likely some other uses for this and it can be made more generic to accommodate those uses, but I'd love for some help road testing this.
+
+## Change Log
+*version 0.2 *
+- added @ to callout in !nextplayer
+- added duplicate protection
