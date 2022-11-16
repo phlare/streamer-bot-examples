@@ -16,6 +16,9 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 **!addplayer**  allow mods to add others to the queue (set permissions accordingly)  use like !addplayer @buttsbot  (works with or without the @)
 **!clearplayers**  clear the whole queue
 **!nextplayer**  announce the next player when it's time to pull one from the queue (this also removes that player from queue)
+**!nextplayer n** pull multiple players from queue in order (use like !nextplayer 2, !nextplayer 3)
+**!randomplayer**  announce a random player when it's time to pull one from the queue (this also removes that player from queue)
+**!randomplayer n** pull multiple players from queue randomly (use like !randomplayer 2, !randomplayer 3)
 **!removeplayer**  allows mods to remove someone from the queue (set permissions accordingly)
 **!showplayers**  display the entire queue in chat.
 
