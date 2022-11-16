@@ -8,7 +8,7 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 
 ## Instructions:
 1)  Import code.txt into Streamer.bot
-2) Enable the 6 commands as needed and set permissions as desired (recommend mod only except for !addme)
+2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme)
 3) Enjoy
  
 ## Command descriptions:
