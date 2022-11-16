@@ -2,7 +2,7 @@
 
 Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
 
-Suggested use for only you and your mods to be able to use !addplayer, but if you want anyone to be able to add themselves, you can enable the !addme command as well and set permissions accordingly.
+Suggested use for only you and your mods to be able to use the majority of these commands, but if you want anyone to be able to add themselves, you can enable the !addme command as well and set permissions accordingly.
 
 Video forthcoming eventually, but for now, have a beta release and please help me test this
 
