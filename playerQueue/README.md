@@ -1,4 +1,4 @@
-# playing with Viewers Queue System  Version 0.2
+# playing with Viewers Queue System  Version 0.3
 
 Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
 
