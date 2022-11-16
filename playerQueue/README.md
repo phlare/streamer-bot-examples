@@ -28,3 +28,7 @@ Likely some other uses for this and it can be made more generic to accommodate t
 *version 0.2 *
 - added @ to callout in !nextplayer
 - added duplicate protection
+*version 0.3*
+- added optional numeric parameter to !nextplayer
+- added !randomplayer
+- combine all commands except !addme into same "command" object in SB
