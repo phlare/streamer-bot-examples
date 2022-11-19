@@ -1,14 +1,14 @@
-# playing with Viewers Queue System  Version 0.3
+# playing with Viewers Queue System  Version 0.4
 
 Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
 
-Suggested use for only you and your mods to be able to use the majority of these commands, but if you want anyone to be able to add themselves, you can enable the !addme command as well and set permissions accordingly.
+Suggested use for only you and your mods to be able to use the majority of these commands, but if you want anyone to be able to add themselves, you can enable the !addme and !removeme commands as well and set permissions accordingly.
 
 Video forthcoming eventually, but for now, have a beta release and please help me test this
 
 ## Instructions:
 1)  Import code.txt into Streamer.bot
-2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme)
+2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme and !removeme)
 3) Enjoy
  
 ## Command descriptions:
@@ -19,6 +19,7 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 **!nextplayer n** pull multiple players from queue in order (use like !nextplayer 2, !nextplayer 3)
 **!randomplayer**  announce a random player when it's time to pull one from the queue (this also removes that player from queue)
 **!randomplayer n** pull multiple players from queue randomly (use like !randomplayer 2, !randomplayer 3)
+**!removeme** allows user to remove themselves to queue
 **!removeplayer**  allows mods to remove someone from the queue (set permissions accordingly)
 **!showplayers**  display the entire queue in chat.
 
@@ -32,3 +33,5 @@ Likely some other uses for this and it can be made more generic to accommodate t
 - added optional numeric parameter to !nextplayer
 - added !randomplayer
 - combine all commands except !addme into same "command" object in SB
+*version 0.4*
+- added !removeme command
