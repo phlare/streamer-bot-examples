@@ -23,15 +23,25 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 **!removeplayer**  allows mods to remove someone from the queue (set permissions accordingly)
 **!showplayers**  display the entire queue in chat.
 
+### Changing Commands is possible by adjusting the commands themselves as well as the "set argument" sub-actions in the main action. Ping phlare if you need help with this.
+
 Likely some other uses for this and it can be made more generic to accommodate those uses, but I'd love for some help road testing this.
 
 ## Change Log
 *version 0.2 *
 - added @ to callout in !nextplayer
 - added duplicate protection
+
 *version 0.3*
 - added optional numeric parameter to !nextplayer
 - added !randomplayer
 - combine all commands except !addme into same "command" object in SB
+
 *version 0.4*
 - added !removeme command
+
+*version 0.5*
+- added separate export for YouTube Version
+- added more flexibility to commands allowed
+- removed a stray debug message
+- fixed messaging when queue is empty and !nextplayer or !randomplayer is used.
