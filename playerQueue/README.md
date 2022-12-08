@@ -28,7 +28,7 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 Likely some other uses for this and it can be made more generic to accommodate those uses, but I'd love for some help road testing this.
 
 ## Change Log
-*version 0.2 *
+*version 0.2*
 - added @ to callout in !nextplayer
 - added duplicate protection
 
