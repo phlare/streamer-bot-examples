@@ -46,7 +46,7 @@ Likely some other uses for this and it can be made more generic to accommodate t
 - removed a stray debug message
 - fixed messaging when queue is empty and !nextplayer or !randomplayer is used.
 
-*version 0.6* (2022-12-18)
+*version 0.6* (2022-12-28)
 - added "active players" list that keeps track of the currently active players after they have been added using !nextplayer
 - configurable "numberActivePlayers" variable in main action (defaults to 1)
 - proper camelCase for command arguments
