@@ -9,7 +9,8 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 ## Instructions:
 1)  Import code.txt into Streamer.bot
 2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme and !removeme)
-3) Enjoy
+3) Adjust "NumberActivePlayers" variable in main action (defaults to 1)
+4) Enjoy
  
 ## Command descriptions:
 **!addme** (optional)  set to to allow anyone to add themselves to the queue, or lock command down to vip/mods only.
