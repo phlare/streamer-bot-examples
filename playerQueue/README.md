@@ -1,4 +1,4 @@
-# playing with Viewers Queue System  Version 0.4
+# playing with Viewers Queue System  Version 0.6
 
 Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
 
@@ -28,20 +28,25 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 Likely some other uses for this and it can be made more generic to accommodate those uses, but I'd love for some help road testing this.
 
 ## Change Log
-*version 0.2 *
+*version 0.2 * (2022-11-12)
 - added @ to callout in !nextplayer
 - added duplicate protection
 
-*version 0.3*
+*version 0.3* (2022-11-15)
 - added optional numeric parameter to !nextplayer
 - added !randomplayer
 - combine all commands except !addme into same "command" object in SB
 
-*version 0.4*
+*version 0.4* (2022-11-18)
 - added !removeme command
 
-*version 0.5*
+*version 0.5* (2022-11-19)
 - added separate export for YouTube Version
 - added more flexibility to commands allowed
 - removed a stray debug message
 - fixed messaging when queue is empty and !nextplayer or !randomplayer is used.
+
+*version 0.6* (2022-12-18)
+- added "active players" list that keeps track of the currently active players after they have been added using !nextplayer
+- configurable "numberActivePlayers" variable in main action (defaults to 1)
+- proper camelCase for command arguments
