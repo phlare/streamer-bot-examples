@@ -1,4 +1,4 @@
-# playing with Viewers Queue System  Version 0.6
+# playing with Viewers Queue System  Version 0.7
 
 Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
 
@@ -51,3 +51,9 @@ Likely some other uses for this and it can be made more generic to accommodate t
 - added "active players" list that keeps track of the currently active players after they have been added using !nextplayer
 - configurable "numberActivePlayers" variable in main action (defaults to 1)
 - proper camelCase for command arguments
+
+*version 0.7* (2023-01-18)
+- update to truncate list of players if it gets too long
+- fix to prevent user being added to queue if already "active"
+- AddMe and RemoveMe actions separated so they can be used as channel point rewards.
+
