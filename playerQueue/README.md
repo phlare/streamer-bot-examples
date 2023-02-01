@@ -1,4 +1,4 @@
-# playing with Viewers Queue System  Version 0.7
+# playing with Viewers Queue System  Version 0.8
 
 Add/remove viewers to/from a player queue where you can keep track of who wants to play, and get them lined up.   
 
@@ -10,18 +10,21 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 1)  Import code.txt into Streamer.bot
 2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme and !removeme)
 3) Adjust "NumberActivePlayers" variable in main action (defaults to 1)
-4) Enjoy
+4) (optional) Assign AddMe and RemoveMe Actions to Channel Point Rewards
+5) Enjoy
  
 ## Command descriptions:
 **!addme** (optional)  set to to allow anyone to add themselves to the queue, or lock command down to vip/mods only.
 **!addplayer**  allow mods to add others to the queue (set permissions accordingly)  use like !addplayer @buttsbot  (works with or without the @)
-**!clearplayers**  clear the whole queue
-**!nextplayer**  announce the next player when it's time to pull one from the queue (this also removes that player from queue)
+**!clearplayers**  clear the whole queue, including active players
+**!nextplayer**  announce the next player when it's time to pull one from the queue (this also removes that player from queue and adds them as active)
 **!nextplayer n** pull multiple players from queue in order (use like !nextplayer 2, !nextplayer 3)
-**!randomplayer**  announce a random player when it's time to pull one from the queue (this also removes that player from queue)
+**!randomplayer**  announce a random player when it's time to pull one from the queue (this also removes that player from queue and adds them as active)
 **!randomplayer n** pull multiple players from queue randomly (use like !randomplayer 2, !randomplayer 3)
+**!removeactive** removes all active players from active queue (does not effect "waiting" queue)
 **!removeme** allows user to remove themselves to queue
 **!removeplayer**  allows mods to remove someone from the queue (set permissions accordingly)
+**!replaceactive** this removes all active players and automatically pulls in the next from the queue
 **!showplayers**  display the entire queue in chat.
 
 ### Changing Commands is possible by adjusting the commands themselves as well as the "set argument" sub-actions in the main action. Ping phlare if you need help with this.
@@ -57,3 +60,6 @@ Likely some other uses for this and it can be made more generic to accommodate t
 - fix to prevent user being added to queue if already "active"
 - AddMe and RemoveMe actions separated so they can be used as channel point rewards.
 
+*version 0.8* (2023-02-01)
+- added !removeactive to clear players from active list
+- added !replaceactive to clear active players AND automatically call !nextplayer n for number of required new active players
