@@ -7,7 +7,7 @@ Suggested use for only you and your mods to be able to use the majority of these
 Video forthcoming eventually, but for now, have a beta release and please help me test this
 
 ## Instructions:
-1)  Import code.txt into Streamer.bot
+1)  Import [code.txt](https://raw.githubusercontent.com/phlare/streamer-bot-examples/main/playerQueue/code.txt) into Streamer.bot
 2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme and !removeme)
 3) Adjust "NumberActivePlayers" variable in main action (defaults to 1)
 4) (optional) Assign AddMe and RemoveMe Actions to Channel Point Rewards
