@@ -1,6 +1,7 @@
 A handful of import codes to help leverage groups in streamer.bot
 
-see video here: (coming soon)
+see video here: https://www.youtube.com/watch?v=MdlmfH92vOg
+
 
 # i break for bot group members(v2)
 
