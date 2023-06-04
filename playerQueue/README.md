@@ -18,6 +18,7 @@ Video forthcoming eventually, but for now, have a beta release and please help m
  (optional)  set to to allow anyone to add themselves to the queue, or lock command down to vip/mods only.\
 **!addplayer**\
   allow mods to add others to the queue (set permissions accordingly)  use like !addplayer @buttsbot  (works with or without the @)\
+  multiple players can be added by separating their names with spaces
 **!clearplayers**\
     clear the whole queue, including active players\
 **!nextplayer**\
@@ -75,3 +76,9 @@ Likely some other uses for this and it can be made more generic to accommodate t
 *version 0.8* (2023-02-01)
 - added !removeactive to clear players from active list
 - added !replaceactive to clear active players AND automatically call !nextplayer n for number of required new active players
+
+*version 0.9* (2023-06-04)
+- removed some unnecessary output that was a bit on the spammy side
+- added ability to add multiple players with !addplayer command (separate with spaces)
+- added (optional) ability to automatically tag active players in the stream title
+- moved !showplayers to be a public command rather than moderator only
