@@ -1,0 +1,4 @@
+In %place1%, %thing1% is sacred.  Even %person1% worships it.
+What if %person1% went to %place1% and brought %thing1% so they could trade for %thing2% with %person2% before going back to %place2%?
+The secret to life, according to %person1%, is %thing1%.
+If you ever find %thing1% in %place1% you need to tell %person1% right away before things get out of hand.
