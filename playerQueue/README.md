@@ -11,7 +11,9 @@ Video forthcoming eventually, but for now, have a beta release and please help m
 2) Enable the commands as needed and set permissions as desired (recommend mod only except for !addme and !removeme)
 3) Adjust "NumberActivePlayers" variable in main action (defaults to 1)
 4) (optional) Assign AddMe and RemoveMe Actions to Channel Point Rewards
-5) Enjoy
+5) (0.9+) Toggle changeTitle argument to toggle off/on automatic title changes
+6) (0.9+) Adjust titleSeparator argument to use separator other than 'with' when tagging collaborators in stream title
+7) Enjoy
  
 ## Command descriptions:
 **!addme**\
