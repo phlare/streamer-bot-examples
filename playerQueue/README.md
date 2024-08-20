@@ -84,3 +84,6 @@ Likely some other uses for this and it can be made more generic to accommodate t
 - added ability to add multiple players with !addplayer command (separate with spaces)
 - added (optional) ability to automatically tag active players in the stream title
 - moved !showplayers to be a public command rather than moderator only
+
+*version 0.10* (2024-08-19)
+- updated to work with new streamer.bot version
