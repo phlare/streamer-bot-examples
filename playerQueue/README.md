@@ -87,3 +87,12 @@ Likely some other uses for this and it can be made more generic to accommodate t
 
 *version 0.10* (2024-08-19)
 - updated to work with new streamer.bot version
+
+
+## Requested / Possible Future updates
+- action to pull the info on the queue for use in an overlay
+- add a way so that subscribers can get a priority queue
+- add a "bribing" system to allow a certain bit donation to jump the queue
+- ability to run multiple queues in parallel for different activities
+- extract more of the commands to their own methods so they can be tied to actions individually (for voice control / streamdeck / etc)
+- some sort of html display of the queue to be able to be used as an overlay element or dock
