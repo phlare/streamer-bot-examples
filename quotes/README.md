@@ -12,7 +12,7 @@ This import extends the native quote functionality of streamer.bot to mimic the 
 ## Instructions:
 1) Import [code.txt](https://raw.githubusercontent.com/phlare/streamer-bot-examples/main/quotes/code.txt) into Streamer.bot
 2) Go to the commands tab and enable the relevant commands, and set permissions as desired (recommend VIP and up for !addquote and mod only for !deletequote)
-3) Go to Settings -> Quotes in SB and check the "enabled" checkbox, and set the "Perm to Add" dropdown to the desired permissions
+3) Go to Settings -> User Interface in SB and scroll down to "Services."  Expand the panel and ensure that the toggle for "Quotes" is turned on.
 4) if you wish to send the quotes to discord, generate a webhook from the appropriate channel (in discord: Edit channel -> integrations -> Webhooks)
 save this webhook url in a file called `wh-quotes.txt` in your streamer.bot directory in the data folder and a subfolder `keys`  so ultimately the file path will be {your streamer bot directory}/data/keys/wh-quotes.txt
 5) Enjoy
